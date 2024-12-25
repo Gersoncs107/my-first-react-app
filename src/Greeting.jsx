@@ -12,7 +12,8 @@ function Greeting() {
     <input type="text" />
     <br/>
     <button style={{
-      backgroundColor:"aquamarine"
+      backgroundColor:"aquamarine",
+      borderRadius: "10px"
     }}>Submit</button>
     <ul style={{
       backgroundColor: "black",
