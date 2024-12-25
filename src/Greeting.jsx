@@ -1,4 +1,10 @@
-const name = "Sad Pepe"
+const person = {
+  name: "Sad Pepe",
+  theme: {
+    backgroundColor: "black",
+    color: 'red'
+  }
+}
 
 function Greeting() {
     // return <h1>&quot;If you don't try to save one life, you'll never save any&quot;</h1>
