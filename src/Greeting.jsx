@@ -23,10 +23,7 @@ function Greeting() {
       backgroundColor:"aquamarine",
       borderRadius: "10px"
     }}>Submit</button>
-    <ul style={{
-      backgroundColor: "black",
-      color: "red"
-    }}>
+    <ul>
       <li>Invent new traffic lights</li>
       <li>Rehearse a movie scene</li>
       <li>Improve the spectrum technology</li>
