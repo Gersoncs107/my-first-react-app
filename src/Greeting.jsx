@@ -6,7 +6,7 @@ const person = {
   }
 }
 
-function ListAnimal(props){
+function ListItem(props){
   return <li>{props.animal}</li>
 }
 
