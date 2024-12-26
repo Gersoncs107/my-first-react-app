@@ -25,7 +25,7 @@ function Animal(){
 function Greeting() {
     // return <h1>&quot;If you don't try to save one life, you'll never save any&quot;</h1>
     return ( 
-    <div style={{backgroundColor:"black", color: "purple"}}>
+    <div style={{backgroundColor:"black", color: "purple", width: "600px"}}>
     <h1>{person.name}'s Todos</h1>
     <img style={{
       borderRadius:"10px"
