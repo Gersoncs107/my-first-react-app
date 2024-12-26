@@ -25,7 +25,7 @@ function List(props){
 
 function Animal(){
 
-  const animals = ["Lion", "Cow", "Snake", "Lizard"]
+  const animals = ["Lion", "Cow", "Snake", "Lizard", "Horse", "Chicken"]
     
   return (
     <>
