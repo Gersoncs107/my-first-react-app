@@ -11,7 +11,16 @@ function ListItem(props){
 }
 
 function List(){
-  
+  return(
+
+    <ul>
+      {props.animals.map((animal)=> {
+        return <ListItem key={animal} animal={animal}/>
+      })}
+
+    </ul>
+
+  )
 }
 
 function Animal(){
