@@ -6,12 +6,29 @@ const person = {
   }
 }
 
+// function Animal(){
+
+//   const animals = ["Lion", "Cow", "Snake", "Lizard"]
+//   const animalList = animals.map( animal => <li key= {animal}>{animal}</li>)
+//   return (
+//     <>
+//       <h1>Animals:</h1>
+//       <ul>
+//         {animalList}
+//       </ul>
+    
+//     </>
+//   )
+// }
+
 function Greeting() {
     // return <h1>&quot;If you don't try to save one life, you'll never save any&quot;</h1>
     return ( 
     <div style={{backgroundColor:"black", color: "red"}}>
     <h1>{person.name}'s Todos</h1>
-    <img 
+    <img style={{
+      borderRadius:"10px"
+    }}
       src="https://i.imgur.com/segHJlQ.jpeg" 
       alt="Sad Pepe" 
       className="photo" 
