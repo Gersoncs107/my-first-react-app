@@ -6,6 +6,12 @@ const person = {
   }
 }
 
+function ListAnimal(props){
+  return <li>{props.animal}</li>
+}
+
+
+
 function Animal(){
 
   const animals = ["Lion", "Cow", "Snake", "Lizard"]
