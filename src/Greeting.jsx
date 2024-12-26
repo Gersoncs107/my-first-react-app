@@ -10,7 +10,9 @@ function ListItem(props){
   return <li>{props.animal}</li>
 }
 
-
+function List(){
+  
+}
 
 function Animal(){
 
