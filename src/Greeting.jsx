@@ -24,7 +24,7 @@ function List(props){
 
     <ul>
       {props.animals.map((animal)=> {
-       return <li key={animal}>{animal}</li>
+       return <li key= {animal}>{animal}</li>
       })}
 
     </ul>
