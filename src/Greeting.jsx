@@ -11,11 +11,20 @@ function ListItem(props){
 }
 
 function List(props){
+
+  if(!props.animals){
+  return  <>Loading...</>
+  }
+
+  if(props.animals.length === 0){
+    return <>There are no animals in the list!</>
+  }
+
   return(
 
     <ul>
       {props.animals.map((animal)=> {
-        return animal.startsWith("L")? <li key={animal}>{animal}</li> : null
+       return <li key={animal}>{animal}</li>
       })}
 
     </ul>
