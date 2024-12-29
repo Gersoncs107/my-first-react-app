@@ -6,10 +6,12 @@ const todos = [
 
 export default function TodoList(){
      return(
+     <div style={{color: "blue", backgroundColor:"aquamarine", width: "500px", height: "400px"}}>
         <ul>
             {todos.map( todo => {
                 return <li key={todo.id}>{todo.task}</li>
             })}
         </ul>
+     </div>
      )
 }
