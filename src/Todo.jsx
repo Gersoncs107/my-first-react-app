@@ -4,7 +4,7 @@ const todos = [
     {task: "Feed the cat", id: crypto.randomUUID()}
 ]
 
-export function TodoList(){
+export default function TodoList(){
      return(
         <ul>
             {todos.map( todo => {
