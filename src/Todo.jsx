@@ -10,7 +10,7 @@ export default function TodoList(){
      return(
      <div style={{color: "blue", backgroundColor:"aquamarine", width: "500px", height: "400px"}}>
         <ul style={{textAlign: "left"}}>
-            {months.map( todo => {
+            {months.map( month => {
                return <li key={todo.id}>{todo.task}</li>
             })}
         </ul>
