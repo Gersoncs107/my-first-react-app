@@ -1,9 +1,10 @@
  function Button(props){
     const butonStyle = {
-        
+        color: props.color,
+        fontSize: props.fontSize
     }
     return (
-        <button>Click Me!</button>
+        <button style={butonStyle}>props.text</button>
     )
  }
 
