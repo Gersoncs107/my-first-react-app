@@ -1,4 +1,7 @@
- function Button(){
+ function Button(props){
+    const butonStyle = {
+        
+    }
     return (
         <button>Click Me!</button>
     )
