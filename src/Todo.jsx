@@ -4,7 +4,7 @@
     )
  }
 
- export function AppButton(){
+ export default function AppButton(){
     return(
     <div>
         <Button/>
