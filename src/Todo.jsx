@@ -4,7 +4,7 @@
         fontSize: fontSize +"px"
     }
     return (
-        <button style={buttonStyle}>{props.text}</button>
+        <button style={buttonStyle}>{text}</button>
     )
  }
 
