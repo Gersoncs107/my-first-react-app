@@ -12,6 +12,7 @@
  Button.defaultProps = {
     text:"Click Me!",
     color: "blue",
+    backgroundColor:"rgb(149, 216, 160)",
     fontSize: 12
  }
 
