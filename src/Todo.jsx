@@ -1,6 +1,7 @@
- function Button({text, color, fontSize}){
+ function Button({text, color, backgroundColor, fontSize}){
     const buttonStyle = {
         color: color,
+        backgroundColor: backgroundColor,
         fontSize: fontSize +"px"
     }
     return (
