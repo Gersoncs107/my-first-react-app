@@ -19,7 +19,7 @@
     <div>
         <Button/>
         <Button text="Don't Click Me!" color= "red" fontSize={12}/>
-        <Button text="Click Me!" color="blue" fontSize={20}/>
+        <Button fontSize={20}/>
     </div>
     )
  }
