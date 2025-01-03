@@ -15,7 +15,7 @@
     text:"Click Me!",
     color: "blue",
     backgroundColor:"rgb(149, 216, 160)",
-    fontSize: 12
+    fontSize: 20
  }
 
  export default function AppButton(){
