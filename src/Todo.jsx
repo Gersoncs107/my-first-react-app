@@ -19,6 +19,10 @@
  }
 
  export default function AppButton(){
+
+    const handleButtonClick = () => {
+        window.location.href = "https://www.google.com"
+    }
     return(
     <div>
         <Button/>
