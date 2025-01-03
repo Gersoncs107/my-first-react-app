@@ -5,7 +5,9 @@
         fontSize: fontSize +"px"
     }
     return (
-        <button style={buttonStyle}>{text}</button>
+        <button onClick={handleClick} style={buttonStyle}>
+            {text}
+        </button>
     )
  }
 
