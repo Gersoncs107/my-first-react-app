@@ -25,9 +25,7 @@
     }
     return(
     <div>
-        <Button/>
-        <Button text="Don't Click Me!" color= "red" fontSize={12}/>
-        <Button fontSize={20}/>
+        <Button handleClick={handleButtonClick}/>
     </div>
     )
  }
