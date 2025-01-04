@@ -1,4 +1,4 @@
- function Button({text, color, backgroundColor, fontSize, handleClick }){
+ function Button({text = "Click Me", color = "blue", backgroundColor = "rgb(149, 216, 160)", fontSize = 20, handleClick }){
     const buttonStyle = {
         color: color,
         backgroundColor: backgroundColor,
