@@ -20,12 +20,12 @@
 
  export default function AppButton(){
 
-    const handleButtonClick = () => {
-        window.location.href = "https://www.google.com"
+    const handleButtonClick = (url) => {
+        window.location.href = url
     }
     return(
     <div>
-        <Button handleClick={handleButtonClick}/>
+        <Button handleClick={() => handleButtonClick('www.theodinproject.com')}/>
     </div>
     )
  }
