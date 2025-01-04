@@ -25,7 +25,7 @@
     }
     return(
     <div>
-        <Button handleClick={() => handleButtonClick('www.theodinproject.com')} />
+        <Button handleClick={() => handleButtonClick("https://www.google.com")} />
     </div>
     )
  }
