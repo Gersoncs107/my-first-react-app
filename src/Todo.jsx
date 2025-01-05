@@ -24,7 +24,7 @@
         window.location.href = url
     }
     return(
-    <div style={{backgroundColor: "rgb(23, 151, 98)"}}>
+    <div style={{backgroundColor: "rgb(23, 151, 98)", width: "400px"}}>
         <Button handleClick={() => handleButtonClick("https://www.google.com")} />
     </div>
     )
