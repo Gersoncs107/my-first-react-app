@@ -1,4 +1,4 @@
- function Button({text = "Click Me", color = "blue", backgroundColor = "rgb(149, 216, 160)", fontSize = 20, handleClick }){
+ function Button({text = "Click Me", color = "blue", backgroundColor = "rgb(30, 160, 177)", fontSize = 20, handleClick }){
     const buttonStyle = {
         color: color,
         backgroundColor: backgroundColor,
@@ -24,7 +24,7 @@
         window.location.href = url
     }
     return(
-    <div>
+    <div style={{backgroundColor: "rgb(23, 151, 98)"}}>
         <Button handleClick={() => handleButtonClick("https://www.google.com")} />
     </div>
     )
