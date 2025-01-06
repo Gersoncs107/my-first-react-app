@@ -1,15 +1,15 @@
- function Button({text = "Click Me", color = "blue", backgroundColor = "rgb(30, 160, 177)", fontSize = 20, handleClick }){
-    const buttonStyle = {
-        color: color,
-        backgroundColor: backgroundColor,
-        fontSize: fontSize +"px"
-    }
-    return (
-        <button onClick={handleClick} style={buttonStyle}>
-            {text}
-        </button>
-    )
- }
+//  function Button({text = "Click Me", color = "blue", backgroundColor = "rgb(30, 160, 177)", fontSize = 20, handleClick }){
+//     const buttonStyle = {
+//         color: color,
+//         backgroundColor: backgroundColor,
+//         fontSize: fontSize +"px"
+//     }
+//     return (
+//         <button onClick={handleClick} style={buttonStyle}>
+//             {text}
+//         </button>
+//     )
+//  }
 
 //  Button.defaultProps = {
 //     text:"Click Me!",
@@ -18,14 +18,16 @@
 //     fontSize: 20
 //  }
 
- export default function AppButton(){
+//  export default function AppButton(){
 
-    const handleButtonClick = (url) => {
-        window.location.href = url
-    }
-    return(
-    <div style={{backgroundColor: "rgb(23, 151, 98)", width:"400px", height:"100px"}}>
-        <Button handleClick={() => handleButtonClick("https://www.google.com")} />
-    </div>
-    )
- }
+//     const handleButtonClick = (url) => {
+//         window.location.href = url
+//     }
+//     return(
+//     <div style={{backgroundColor: "rgb(23, 151, 98)", width:"400px", height:"100px"}}>
+//         <Button handleClick={() => handleButtonClick("https://www.google.com")} />
+//     </div>
+//     )
+//  }
+import { useState } from "react";
+
