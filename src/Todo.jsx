@@ -35,6 +35,6 @@ function Person(){
     const [person, setPerson] = useState({name:"Madruga", age: 100})
 
     const handleIncreaseAge = () => {
-        
+        setPerson({...person, age: person.age + 1})
     }
 }
