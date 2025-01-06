@@ -5,10 +5,11 @@ import App from './App.jsx'
 import Greeting from './Greeting.jsx'
 import TodoList from './Todo.jsx'
 import AppButton from './Todo.jsx'
+import Person from './Todo.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <AppButton />
+    <Person />
   </StrictMode>,
 )
