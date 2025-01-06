@@ -35,7 +35,8 @@ export default function Person(){
     const [person, setPerson] = useState({name:"Madruga", age: 100})
 
     const handleIncreaseAge = () => {
-        setPerson({...person, age: person.age + 1})
+        const newPerson = {...person, age: person.age + 1}
+        setPerson()
     }
 
     return(
