@@ -37,4 +37,12 @@ function Person(){
     const handleIncreaseAge = () => {
         setPerson({...person, age: person.age + 1})
     }
+
+    return(
+        <div>
+            <h1>person.name</h1>
+            <h2>person.age</h2>
+            <button onClick={handleIncreaseAge}>Increase Age</button>
+        </div>
+    )
 }
