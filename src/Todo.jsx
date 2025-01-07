@@ -48,7 +48,7 @@ export default function Person(){
         <div>
             <h1>{person.name}</h1>
             <h2>{person.age}</h2>
-            <button onClick={handleDecreaseAge}></button>
+            <button onClick={handleDecreaseAge}>Decrease Age</button>
             <button onClick={handleIncreaseAge}>Increase Age</button>
         </div>
     )
