@@ -39,6 +39,10 @@ export default function Person(){
         setPerson(newPerson)
     }
 
+    const handleDecreaseAge = () =>{
+        
+    }
+
     return(
         <div>
             <h1>{person.name}</h1>
