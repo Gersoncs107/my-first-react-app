@@ -41,12 +41,14 @@ export default function Person(){
 
     const handleDecreaseAge = () =>{
         const _newPerson = {...person, age:person.age - 1}
+        setPerson(_newPerson)
     }
 
     return(
         <div>
             <h1>{person.name}</h1>
             <h2>{person.age}</h2>
+            <button onClick={handleDecreaseAge}></button>
             <button onClick={handleIncreaseAge}>Increase Age</button>
         </div>
     )
