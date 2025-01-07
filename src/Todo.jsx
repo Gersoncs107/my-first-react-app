@@ -40,7 +40,7 @@ export default function Person(){
     }
 
     const handleDecreaseAge = () =>{
-        const _newPerson = {...person, age:person.age }
+        const _newPerson = {...person, age:person.age - 1}
     }
 
     return(
