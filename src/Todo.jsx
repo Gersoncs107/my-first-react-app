@@ -33,7 +33,9 @@ import { useState } from "react";
 
 function Button({text= "Increase", color= "blue", backgroundColor = "rgb(30, 160, 177)", fontSize = 20}){
     const buttonStyle = {
-        
+        color: color,
+        backgroundColor: backgroundColor,
+        fontSize: fontSize + "px"
     }
 }
 
