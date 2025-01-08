@@ -31,6 +31,11 @@
 //  }
 import { useState } from "react";
 
+function Button({text= "Increase", color= "blue", backgroundColor = "rgb(30, 160, 177)", fontSize = 20}){
+    const buttonStyle = {
+        
+    }
+}
 
 export default function Person(){
     const [person, setPerson] = useState({name:"Madruga", age: 100})
