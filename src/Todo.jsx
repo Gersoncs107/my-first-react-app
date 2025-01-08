@@ -31,6 +31,7 @@
 //  }
 import { useState } from "react";
 
+
 export default function Person(){
     const [person, setPerson] = useState({name:"Madruga", age: 100})
 
