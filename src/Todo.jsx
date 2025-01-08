@@ -37,6 +37,9 @@ function Button({text= "Increase", color= "blue", backgroundColor = "rgb(30, 160
         backgroundColor: backgroundColor,
         fontSize: fontSize + "px"
     }
+    return(
+        <button style={buttonStyle}></button>
+    )
 }
 
 export default function Person(){
