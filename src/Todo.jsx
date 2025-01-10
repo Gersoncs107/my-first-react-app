@@ -32,7 +32,9 @@
 import { useState } from "react";
 
 export default function Form(){
-    
+    function cadastrarUsuario(e){
+        e.preventDefault()
+    }
 }
 
 // export default function Person(){
