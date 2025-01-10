@@ -32,25 +32,25 @@
 import { useState } from "react";
 
 
-export default function Person(){
-    const [person, setPerson] = useState({name:"Madruga", age: 100})
+// export default function Person(){
+//     const [person, setPerson] = useState({name:"Madruga", age: 100})
 
-    const handleIncreaseAge = () => {
-        const newPerson = {...person, age: person.age + 1}
-        setPerson(newPerson)
-    }
+//     const handleIncreaseAge = () => {
+//         const newPerson = {...person, age: person.age + 1}
+//         setPerson(newPerson)
+//     }
 
-    const handleDecreaseAge = () =>{
-        const _newPerson = {...person, age:person.age - 1}
-        setPerson(_newPerson)
-    }
+//     const handleDecreaseAge = () =>{
+//         const _newPerson = {...person, age:person.age - 1}
+//         setPerson(_newPerson)
+//     }
 
-    return(
-        <div>
-            <h1>{person.name}</h1>
-            <h2>{person.age}</h2>
-            <button onClick={handleDecreaseAge}>Decrease Age</button>
-            <button onClick={handleIncreaseAge}>Increase Age</button>
-        </div>
-    )
-}
+//     return(
+//         <div>
+//             <h1>{person.name}</h1>
+//             <h2>{person.age}</h2>
+//             <button onClick={handleDecreaseAge}>Decrease Age</button>
+//             <button onClick={handleIncreaseAge}>Increase Age</button>
+//         </div>
+//     )
+// }
