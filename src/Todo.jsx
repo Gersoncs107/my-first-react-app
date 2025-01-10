@@ -34,6 +34,7 @@ import { useState } from "react";
 export default function Form(){
     function cadastrarUsuario(e){
         e.preventDefault()
+        console.log("Usuário cadastrado com sucesso")
     }
 }
 
