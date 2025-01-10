@@ -36,6 +36,13 @@ export default function Form(){
         e.preventDefault()
         console.log("Usuário cadastrado com sucesso")
     }
+
+    return(
+        <div>
+            <h1>Meu Cadastro:</h1>
+            <form onSubmit={cadastrarUsuario}></form>
+        </div>
+    )
 }
 
 // export default function Person(){
