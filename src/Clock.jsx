@@ -1,10 +1,15 @@
 import { useState } from "react";
 
 export default function Clock(){
-    const [count, setCount] = useState(0)
+    const [counter, setCount] = useState(0)
 
     setInterval(() => {
         setCount(count => count + 1)
     }, 1000);
 
+    return(
+        <div>
+            <h2>{counter} Seconds have passed</h2>
+        </div>
+    )
 }
