@@ -17,7 +17,8 @@ export default function Clock(){
     
     return(
         <div>
-            <h2>{counter} Seconds have passed...</h2>
+            <h1>{counter}</h1>
+            <h2>Seconds have passed...</h2>
         </div>
     )
 }
