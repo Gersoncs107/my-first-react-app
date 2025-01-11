@@ -4,9 +4,15 @@ export default function Clock(){
     const [counter, setCount] = useState(0)
 
     useEffect(() => {
-        setInterval(() => {
+       const key = setInterval(() => {
             setCount(count => count + 1)
         }, 1000);
+
+        return ()=> {
+            clearInterval(key)
+        }
+        
+
     },[])
     
     return(
