@@ -13,6 +13,11 @@ const FunctionalInput = ({_name}) => {
         setTodos((todo) => [...todo, inputVal])
         setInputVal("")
     }
+
+    return(
+        <section>
+        </section>
+    )
 }
 
 export default FunctionalInput
