@@ -9,7 +9,8 @@ const FunctionalInput = ({_name}) => {
     }
 
     const handleSubmitt = (e) =>{
-
+        e.preventDefault()
+        
     }
 }
 
