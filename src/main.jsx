@@ -8,10 +8,11 @@ import AppButton from './Todo.jsx'
 import Person from './Todo.jsx'
 import Clock from './Clock.jsx'
 import FunctionalInput from './ClassBased.jsx'
+import ClassInput from '../ClassComponents.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <FunctionalInput />
+    <ClassInput />
   </StrictMode>,
 )
