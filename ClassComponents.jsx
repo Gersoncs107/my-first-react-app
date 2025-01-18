@@ -23,7 +23,11 @@ class ClassInput extends Component{
                     <button type="submit">Submit</button>
                 </form>
                 <h4>All the tasks</h4>
-                <ul></ul>
+                <ul>
+                    {this.state.todos.map((todo) => (
+                        <li key={todo}>{todo}</li>
+                    ))}
+                </ul>
             </section>
         )
     }
