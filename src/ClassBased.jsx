@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const FunctionalInput = ({_name}) => {
-    const [todo, setTodos] = useState(["Just some demo tasks", "As an example"])
+    const [todos, setTodos] = useState(["Just some demo tasks", "As an example"])
     const [inputVal, setInputVal] = useState("")
 
     const handleInputChange = (e) => {
@@ -24,7 +24,14 @@ const FunctionalInput = ({_name}) => {
               value={inputVal}
               onChange={handleInputChange} />  
 
+              <button type="submit">Submit</button>  
             </form>
+
+            <ul>
+                {todos.map((todo) => (
+                    <li key={todo}>{todo}</li>
+                ))}
+            </ul>
 
         </section>
     )
