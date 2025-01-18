@@ -18,7 +18,9 @@ const FunctionalInput = ({_name}) => {
         <section>
             <h3>{Name}</h3>
             <form onSubmit={handleSubmitt}>
+             <label htmlFor="task-entry">Enter a task</label>
                 
+
             </form>
 
         </section>
