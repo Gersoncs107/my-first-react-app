@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-export default function FunctionalInput({_name}){
+const FunctionalInput = ({_name}) => {
     const [todo, setTodo] = useState(["Just some demo tasks", "As an example"])
     const [inputVal, setInputVal] = useState("")
 
@@ -8,3 +8,5 @@ export default function FunctionalInput({_name}){
         setInputVal(e.target.value)
     }
 }
+
+export default FunctionalInput
