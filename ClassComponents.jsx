@@ -9,9 +9,16 @@ class ClassInput extends Component{
             inputVal: "",
           };
 
-          this.handleInputChange = this.handleInputChange.bind(this)
-          this.handleSubmit = this.handleSubmit.bind(this)
+          this.handleInputChange = this.handleInputChange.bind(this);
+          this.handleSubmit = this.handleSubmit.bind(this);
     }
+
+    handleInputChange(e) {
+        this.setState((state) => ({
+          ...state,
+          inputVal: e.target.value,
+        }));
+      }
 
     render() {
         return (
