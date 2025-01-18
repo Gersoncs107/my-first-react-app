@@ -20,6 +20,14 @@ class ClassInput extends Component{
         }));
       }
 
+      handleSubmit(e){
+        e.preventDefault()
+        this.setState((state)=> ({
+            todos:state.todos.concat(state, inputVal),
+            inputVal: "",
+        }))
+      }
+
     render() {
         return (
             <section>
