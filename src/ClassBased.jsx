@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const FunctionalInput = ({_name}) => {
-    const [todo, setTodo] = useState(["Just some demo tasks", "As an example"])
+    const [todo, setTodos] = useState(["Just some demo tasks", "As an example"])
     const [inputVal, setInputVal] = useState("")
 
     const handleInputChange = (e) => {
@@ -10,7 +10,8 @@ const FunctionalInput = ({_name}) => {
 
     const handleSubmitt = (e) =>{
         e.preventDefault()
-        
+        setTodos((todo) => [...todo, inputVal])
+        setInputVal("")
     }
 }
 
