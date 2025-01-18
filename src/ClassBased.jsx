@@ -16,6 +16,11 @@ const FunctionalInput = ({_name}) => {
 
     return(
         <section>
+            <h3>{Name}</h3>
+            <form onSubmit={handleSubmitt}>
+                
+            </form>
+
         </section>
     )
 }
