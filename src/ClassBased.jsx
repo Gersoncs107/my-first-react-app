@@ -16,7 +16,7 @@ const FunctionalInput = ({_name}) => {
 
     return(
         <section>
-            <h3>{Name}</h3>
+            <h3>{_name}</h3>
             <form onSubmit={handleSubmitt}>
              <label htmlFor="task-entry">Enter a task</label>
               <input type="text"
