@@ -7,6 +7,10 @@ const FunctionalInput = ({_name}) => {
     const handleInputChange = (e) => {
         setInputVal(e.target.value)
     }
+
+    const handleSubmitt = (e) =>{
+
+    }
 }
 
 export default FunctionalInput
