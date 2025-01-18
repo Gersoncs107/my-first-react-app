@@ -19,7 +19,10 @@ const FunctionalInput = ({_name}) => {
             <h3>{Name}</h3>
             <form onSubmit={handleSubmitt}>
              <label htmlFor="task-entry">Enter a task</label>
-                
+              <input type="text"
+              name="task-entry"
+              value={inputVal}
+              onChange={handleInputChange} />  
 
             </form>
 
