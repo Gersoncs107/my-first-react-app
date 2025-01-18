@@ -7,10 +7,11 @@ import TodoList from './Todo.jsx'
 import AppButton from './Todo.jsx'
 import Person from './Todo.jsx'
 import Clock from './Clock.jsx'
+import FunctionalInput from './ClassBased.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <Clock />
+    <FunctionalInput />
   </StrictMode>,
 )
