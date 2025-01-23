@@ -5,6 +5,7 @@ import App from "./App";
 describe( "App component", () => {
   it("Renders correct headind", () => {
     render(<App/>)
+    expect(screen.getByRole("heading").textContent).toMatch(/our first test/i)
   })
 })
 
