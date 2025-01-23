@@ -9,7 +9,12 @@ describe( "App component", () => {
     expect(container).toMatchSnapshot()
   })
   it("renders radical rhinos after button click", async() => {
-    
+    const user = userEvent.setup()
+    render(<App/>)
+    const button = screen.getByRole("button", {name: "Click Me"})
+
+    await user.click(button)
+    expect(screen.getByRole("heading").textContent).toMatch(/radical rhinos/i);
   })
 
 })
