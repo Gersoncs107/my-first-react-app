@@ -13,6 +13,6 @@ import ClassInput from '../ClassComponents.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <ClassInput />
+    <App />
   </StrictMode>,
 )
