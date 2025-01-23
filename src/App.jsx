@@ -39,8 +39,14 @@ const App = () => {
   const [headind, setHeading] = useState("Magnificent Monkeys")
 
   const clickHandler = () =>{
-    setHeading("")
+    setHeading("Radical Rhinos")
   }
+
+  return(
+    <div>
+      <button type="button" onClick={clickHandler}>Click Me</button>
+    </div>
+  )
 }
 
 export default App
