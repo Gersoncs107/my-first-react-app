@@ -5,9 +5,13 @@ import App from "./App";
 
 describe( "App component", () => {
   it("renders magnificent monkeys", () => {
-    render(<App/>)
-    expect(screen.getByRole("heading").textContent).toMatch(/our first test/i)
+    const {container} = render(<App/>)
+    expect(container).toMatchSnapshot()
   })
+  it("renders radical rhinos after button click", async() => {
+    
+  })
+
 })
 
 // describe('something truthy and falsy', () => {
