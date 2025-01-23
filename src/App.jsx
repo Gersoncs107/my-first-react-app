@@ -33,7 +33,14 @@
 // }
 
 // export default App
+import { useState } from "react"
 
-const App = () => <h1>Our First Test</h1>
+const App = () => {
+  const [headind, setHeading] = useState("Magnificent Monkeys")
+
+  const clickHandler = () =>{
+    setHeading("")
+  }
+}
 
 export default App
