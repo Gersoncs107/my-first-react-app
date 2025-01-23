@@ -4,7 +4,7 @@ import userEvent from "@testing-library/user-event";
 import App from "./App";
 
 describe( "App component", () => {
-  it("Renders correct headind", () => {
+  it("renders magnificent monkeys", () => {
     render(<App/>)
     expect(screen.getByRole("heading").textContent).toMatch(/our first test/i)
   })
