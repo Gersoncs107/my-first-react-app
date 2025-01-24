@@ -34,6 +34,7 @@
 
 // export default App
 import { useState } from "react"
+import './App.css'
 
 const App = () => {
   const [headind, setHeading] = useState("Magnificent Monkeys")
