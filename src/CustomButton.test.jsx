@@ -11,4 +11,9 @@ describe("CustomButton", ()=> {
 
         expect(button).toBeInTheDocument()
     })
+
+    it("should call the onClick function when clicked", async() => {
+        const onClick = vi.fn()
+        const user = userEvent.setup()
+    })
 })
