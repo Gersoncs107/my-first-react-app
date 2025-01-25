@@ -8,5 +8,7 @@ describe("CustomButton", ()=> {
         render(<CustomButton onClick={ () => {}} />)
 
         const button = screen.getByrole("button", {name: "Click Me"})
+
+        expect(button).toBeInTheDocument()
     })
 })
