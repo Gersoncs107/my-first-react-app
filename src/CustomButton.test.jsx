@@ -6,5 +6,7 @@ import CustomButton from "./CustomButton";
 describe("CustomButton", ()=> {
     it("should render a button with the text 'Click me'", () => {
         render(<CustomButton onClick={ () => {}} />)
+
+        const button = screen.getByrole("button", {name: "Click Me"})
     })
 })
