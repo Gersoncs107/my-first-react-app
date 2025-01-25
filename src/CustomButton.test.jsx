@@ -15,5 +15,8 @@ describe("CustomButton", ()=> {
     it("should call the onClick function when clicked", async() => {
         const onClick = vi.fn()
         const user = userEvent.setup()
+        render(<CustomButton onClick={onClick} />)
+
+        const button = screen.getByrole("button", {name: "Click Me"})
     })
 })
