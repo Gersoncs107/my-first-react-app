@@ -4,7 +4,7 @@ const RenderName = (props) => {
     return <div>{props.name}</div>
 }
 
-RenderName.PropTypes ={
+RenderName.propTypes ={
     name: PropTypes.string
 }
 
