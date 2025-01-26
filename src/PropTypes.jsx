@@ -8,4 +8,8 @@ RenderName.propTypes ={
     name: PropTypes.string
 }
 
+RenderName.defaultProps = {
+    name: "Madruguinha"
+}
+
 export default RenderName
