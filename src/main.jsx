@@ -9,10 +9,11 @@ import Person from './Todo.jsx'
 import Clock from './Clock.jsx'
 import FunctionalInput from './ClassBased.jsx'
 import ClassInput from '../ClassComponents.jsx'
+import RenderName from './PropTypes.jsx'
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    <RenderName />
   </StrictMode>,
 )
